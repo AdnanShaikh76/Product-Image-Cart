@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Abril+Fatface&family=Josefin+Sans&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    position: relative;
+    width: 800px;
+    height: 500px;
+    background-color: rgb(255, 255, 255)rgb(255, 255, 255);
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 20px;
+}
+.container .main-img{
+    width: 380px;
+    height: 360px;
+    /* background-color: aqua; */
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.15);
+}
+.container .main-img img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transition: all ease 0.5s;
+    overflow: hidden;
+}
+.container .main-img:hover img{
+    transform: scale(0.94);
+}
+.container .previewimagesec{
+    width: 380px;
+    height: 80px;
+    /* background-color: aqua; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container .previewimagesec .preimg{
+    width: 45px;
+    height: 45px;
+    background: #888;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+}
+.container .previewimagesec .preimg img{
+    width: 100%;
+    height: 100%;
+}
+.container .details{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 360px;
+    height: 460px;
+    padding: 20px;
+    /* background-color: aqua; */
+}
+.container .details .tag{
+    /* position: relative; */
+    padding: 8px;
+    width: 60px;
+    height: 15px;
+    background-color: #999;
+    border-radius: 20px;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container .details .Title{
+    margin-top: 20px;
+    font-size: 24px;
+    /* font-family: 'Aboreto', cursive; */
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: #03001C;
+    text-transform: uppercase;
+}
+.container .details .info{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    /* font-family: 'Explora', cursive; */
+    font-family: 'Josefin Sans', sans-serif;
+    /* font-weight: 800; */
+    line-height: 1.5;
+    color: #03001C;
+}
+.container .details a{
+    position: absolute;
+    bottom: 35px;
+    right: 20px;
+    background-color: #cb802a;
+    text-decoration: none;
+    padding: 20px;
+    color: #fff;
+    /* border-radius: 10px; */
+    border-radius: 25px;
+}
+.container .details .offer{
+    width: 120px;
+    height: 30px;
+    background: red;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.container .details .negper{
+    width: 50px;
+    height: 40px;
+    /* background-color: #888; */
+    color:red;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.container .details .amount{
+    position: relative;
+    top: -40px;
+    left: 80px;
+    width: 100px;
+    height: 40px;
+    /* background-color: #888; */
+    color:#888 ;
+    font-size: 26px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.container .details .mrp{
+    position: relative;
+    top: -45px;
+    width: 150px;
+    height: 20px;
+    /* background: #888; */
+    padding: 2px;
+    color: #999;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    margin-top: 5px;
+}
+.container .details .mrp span{
+    text-decoration: line-through;
+}
+.container .details .text{
+    position: relative;
+    top: -43px;
+    width: 180px;
+    height: 20px;
+    /* background-color: #888; */
+    /* text-transform: lowercase; */
+    font-size: 16px;
+    color: #666;
+    letter-spacing: 1px;
+}
